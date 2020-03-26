@@ -13,13 +13,48 @@
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
+    background-color: #F2F2F2;
     /* parameters for the header section */
+}
+
+.logo_place_header {
+    position: absolute;
+    z-index: 1;
+    margin-top: 30px;
+    margin-left: 64px;
+}
+
+.header__title {
+    display: flex;
+    align-items: center;
+    margin: 64px;
+    line-height: 96px;
+    font-size: 102px;
+    font-style: bold;
+    z-index: 1;
+}
+
+.header__subtitle {
+    position: absolute;
+    line-height: 25px;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.header__main-illustration {
+    position: absolute;
+    margin-right: 0;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
+    position: absolute;
     height: 568px;
     width: 568px;
+    margin-top: 64px;
+    margin-right: 0;
+    background-color: #2F80ED;
+    z-index: 1;
 }
 
 /* including elements with key-value modifiers */
