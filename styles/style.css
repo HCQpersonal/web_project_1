@@ -17,7 +17,6 @@
     max-height: 756px;
     background-color: #F2F2F2;
     display: flex;
-    /* ATTENTION margins for background-color */
 }
 
 .logo_place_header {
@@ -32,7 +31,7 @@
 .header__title {
     align-self: center;
     left: 64px;
-    /* ATTENTION left alignment */
+    position: absolute;
     line-height: 96px;
     font-size: 102px;
     font-style: bold;
@@ -106,6 +105,7 @@
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
+    align-items: center;
 }
 
 .two-columns__span-accent {
