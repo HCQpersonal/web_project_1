@@ -118,10 +118,37 @@
 
 /* Digits */
 
-.table {
-
+.digits {
+    display: flex;
+    margin: 100px auto;
 }
 
 .section-title {
+    line-height: 69px;
+    font-size: 60px;
+    font-weight: bold;
+}
 
+.section-subtitle {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__cell {
+    margin-top: 60ppx;
+    align-items: center;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.table__text {
+    margin-top: 20px;
 }
