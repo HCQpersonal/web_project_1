@@ -14,23 +14,27 @@
     min-height: 600px;
     max-height: 756px;
     background-color: #F2F2F2;
-    /* parameters for the header section */
+    display: flex;
+    /* ATTENTION margins for background-color */
 }
 
 .logo_place_header {
     position: absolute;
     z-index: 1;
-    margin-top: 30px;
-    margin-left: 64px;
+    top: 30px;
+    left: 64px;
+    width: 154px;
+    height: 31px;
 }
 
 .header__title {
-    display: flex;
-    align-items: center;
-    margin: 64px;
+    align-self: center;
+    left: 64px;
+    /* ATTENTION left alignment */
     line-height: 96px;
     font-size: 102px;
     font-style: bold;
+    width: 730px;
     z-index: 1;
 }
 
@@ -39,28 +43,32 @@
     line-height: 25px;
     font-size: 18px;
     font-style: normal;
+    width: 388px;
+    left: 64px;
+    bottom: 30px;
 }
 
 .header__main-illustration {
     position: absolute;
-    margin-right: 0;
+    right: 0;
+    z-index: 1;
+    width: 765px;
+    height: 608px;
+    bottom: 0;
 }
 
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
     position: absolute;
     height: 568px;
     width: 568px;
-    margin-top: 64px;
-    margin-right: 0;
+    top: 64px;
+    right: 0;
     background-color: #2F80ED;
-    z-index: 1;
 }
 
-/* including elements with key-value modifiers */
 .table__cell_theme_dark {
     width: 200px;
     color: white;
-    margin-right: 0;
-    margin-top: 80px;
+    right: 0;
+    top: 80px;
 }
