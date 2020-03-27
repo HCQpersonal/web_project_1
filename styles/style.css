@@ -72,3 +72,8 @@
     right: 0;
     top: 80px;
 }
+
+.two-columns {
+  justify-content: center;
+  flex: space-between;
+}
