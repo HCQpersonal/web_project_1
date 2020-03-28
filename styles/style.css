@@ -9,6 +9,7 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+
 /* Header */
 
 .header {
@@ -67,12 +68,6 @@
     background-color: #2F80ED;
 }
 
-/* .table__cell_theme_dark {
-    width: 200px;
-    color: white;
-    right: 0;
-    top: 80px;
-} */
 
 /* Description */
 
@@ -115,6 +110,7 @@
 /* .two-columns__paragraph:not(:last-child) {
     margin-bottom: 30px;
 } */
+
 
 /* Digits */
 
@@ -181,4 +177,25 @@
 
 .feynman__main-illustration {
     position: absolute;
+}
+
+
+/* Kaufman */
+
+.kaufman {
+    background-color: black;
+    overflow: hidden;
+}
+
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    right: 0;
+    top: 80px;
+}
+
+.kaufman__triangle {
+    position: absolute;
+    border-right: -210px;
+    z-index: 0;
 }
