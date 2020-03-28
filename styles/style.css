@@ -194,6 +194,30 @@
     top: 80px;
 }
 
+.section-title_dark {
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle_dark {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.table__heading_dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 .kaufman__triangle {
     position: absolute;
     border-right: -210px;
