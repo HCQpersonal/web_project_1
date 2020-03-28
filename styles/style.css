@@ -35,7 +35,7 @@
     position: absolute;
     line-height: 96px;
     font-size: 102px;
-    font-style: bold;
+    font-weight: bold;
     width: 730px;
     z-index: 1;
 }
@@ -261,6 +261,9 @@
 .footer {
     /* color: white; */
     background-color: #1F1F1F;
+    width: 90%;
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 .logo-white {
@@ -292,4 +295,6 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 16px;
 }
