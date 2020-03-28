@@ -126,24 +126,27 @@
 }
 
 .section-subtitle {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.table__heading {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
 }
 
 .table__cell {
-    margin-top: 60ppx;
-    align-items: center;
+    margin-top: 60px;
+    justify-content: space-between;
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
+    flex-direction: row;
 }
+
+.table__heading {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
 
 .table__text {
     margin-top: 20px;
@@ -176,28 +179,52 @@
 }
 
 .feynman__main-illustration {
-    position: absolute;
+    position: relative;
 }
 
 
 /* Kaufman */
 
 .kaufman {
-    background-color: black;
+    background-color: #1F1F1F;
     overflow: hidden;
+    color: #F2F2F2;
 }
 
-.table__cell_theme_dark {
-    width: 200px;
-    color: white;
-    right: 0;
-    top: 80px;
+.table_dark {
+  list-style-type: none;
 }
 
 .section-title_dark {
-  line-height: 69px;
-  font-size: 60px;
-  font-weight: bold;
+    margin: 90px auto 20px;
+    width: 60%;
+    text-align: center;
+}
+
+.section-subtitle_dark {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.table_dark {
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1100px;
+    align-items: center;
+}
+
+.table__cell_theme_dark {
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.section-title_dark {
+    line-height: 69px;
+    font-size: 60px;
+    font-weight: bold;
 }
 
 .section-subtitle_dark {
@@ -207,21 +234,25 @@
 }
 
 .table__heading_dark {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .table__text_dark {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    flex-wrap: wrap;
+    width: 200px;
 }
 
 .kaufman__triangle {
-    position: absolute;
-    border-right: -210px;
+    position: relative;
+    right: -210px;
     z-index: 0;
+    width: 877px;
+    height: 877px;
 }
 
 
@@ -229,6 +260,7 @@
 
 .footer {
     /* color: white; */
+    background-color: #1F1F1F;
 }
 
 .logo-white {
@@ -236,6 +268,12 @@
     flex-basis: 711px;
     width: 183px;
     height: 35px;
+}
+
+.footer__columns {
+  justify-content: space-between;
+  flex-wrap: wrap;
+
 }
 
 .footer__author {
