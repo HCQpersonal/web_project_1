@@ -9,11 +9,6 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* TODO Ask why 2 spaces html but css came with 4 spaces?
-Footer columns
-Social media name and icon own lines and spacing*/
-
-
 /* Header */
 
 .header {
@@ -177,7 +172,6 @@ Social media name and icon own lines and spacing*/
     background-repeat: no-repeat;
     position: relative;
     height: 790px;
-    flex: display;
     background-position: left bottom;
     background-size: 867px 637px ;
   }
@@ -347,7 +341,7 @@ Social media name and icon own lines and spacing*/
     margin-right: 10px;
 }
 
-a:link {
+a {
   text-decoration: none;
   color: #F2F2F2;
 }
