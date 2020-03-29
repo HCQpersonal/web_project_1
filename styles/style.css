@@ -211,8 +211,8 @@ Social media name and icon own lines and spacing
 }
 
 .feynman__main-illustration {
-    /* position: relative; */
-    position: absolute;
+    position: relative;
+    /* position: absolute; */
     height: 637px;
     width: 867px;
 }
@@ -227,7 +227,7 @@ Social media name and icon own lines and spacing
     position: relative;
 }
 
-.section-title_dark {
+.section-title_theme_dark {
     margin: 90px auto 20px;
     width: 60%;
     text-align: center;
@@ -236,7 +236,7 @@ Social media name and icon own lines and spacing
     font-weight: bold;
 }
 
-.section-subtitle_dark {
+.section-subtitle_theme_dark {
     width: 60%;
     margin: 0 auto;
     text-align: center;
@@ -245,7 +245,7 @@ Social media name and icon own lines and spacing
     font-weight: normal;
 }
 
-.table_dark {
+.table__theme_dark {
     padding-top: 80px;
     margin: 0 auto;
 }
@@ -258,13 +258,13 @@ Social media name and icon own lines and spacing
 
 }
 
-.table__heading_dark {
+.table__heading__theme_dark {
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
 }
 
-.table__text_dark {
+.table__text__theme_dark {
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
