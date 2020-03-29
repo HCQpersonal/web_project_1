@@ -333,6 +333,8 @@ Social media name and icon own lines and spacing*/
     font-weight: normal;
     margin-top: 20px;
     margin-bottom: 16px;
+    text-decoration: none;
+    color: #F2F2F2;
 }
 
 .footer__column_content-social {
@@ -345,7 +347,7 @@ Social media name and icon own lines and spacing*/
     margin-right: 10px;
 }
 
-a {
+a:link {
   text-decoration: none;
   color: #F2F2F2;
 }
