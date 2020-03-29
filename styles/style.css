@@ -10,11 +10,9 @@
 }
 
 /* TODO Ask why 2 spaces html but css came with 4 spaces?
-BEM FOR THEME_DARK
-Feyman image up like triangle
 Footer columns
-Social media name and icon own lines and spacing
-*/
+Social media name and icon own lines and spacing*/
+
 
 /* Header */
 
@@ -281,27 +279,32 @@ Social media name and icon own lines and spacing
 .footer {
     color: #F2F2F2;
     background-color: #1F1F1F;
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding: 60px auto 40px;
+    list-style-type: none;
 }
 
 .footer__columns {
-    width: 90%;
-    flex-basis: 711px;
-    justify-content: space-between;
-    flex-wrap: wrap;
     display: flex;
-    flex-direction: row;
-    list-style-type: none;
+    width: 90%;
     justify-content: space-between;
-    align-self: flex-start;
-
+    min-height: 350px;
+    display: flex;
+    flex-basis: 711px;
 }
 
-.logo-white {
+.footer__column_content-copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.logo_place_footer {
     background-size: contain;
-    width: 183px;
+    margin-top: 40px;
     height: 35px;
+    width: 183px;
+    align-self: flex-start;
 }
 
 .footer__author {
@@ -315,14 +318,13 @@ Social media name and icon own lines and spacing
 .footer__column_content-info {
     flex-direction: column;
     flex-wrap: wrap;
-
+    margin-left: 35%;
 }
 
 .footer__column-heading {
     line-height: 45px;
     font-size: 18px;
     font-weight: bold;
-    align-self: flex-start;
 }
 
 .footer__column-links {
@@ -334,10 +336,16 @@ Social media name and icon own lines and spacing
 }
 
 .footer__column_content-social {
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__social-icon {
-    font-size: 16px;
-    /* word-spacing: 10px; */
+    background-size: 16px 16px;
+    margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #F2F2F2;
 }
