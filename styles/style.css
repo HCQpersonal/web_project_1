@@ -52,6 +52,11 @@
     z-index: 2;
 }
 
+.header__link {
+  color: #2F80ED;
+  text-decoration: none;
+}
+
 .header__main-illustration {
     position: absolute;
     right: 0;
