@@ -312,6 +312,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     margin-left: 0;
+    /* margin: 0 messed up the heights; I hope you meant margin-left: 0, which cleanly realigns the column without misaligning it with the logo & social columns. I worked with our tutor in Slack to make sure this is correct. */
     list-style-type: none;
     padding: 0;
 }
