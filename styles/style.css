@@ -283,7 +283,7 @@
 }
 
 .footer__column_content-copyright {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-basis: 711px;
@@ -311,7 +311,7 @@
 .footer__column_content-info {
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left: 35%;
+    margin: 0;
     list-style-type: none;
     padding: 0;
 }
