@@ -195,6 +195,48 @@
   position: relative;
 }
 
+/* Feynman */
+
+.feynman {
+  background-color: #F2F2F2;
+  padding-top: 100px;
+  background-image: url('/images/feynman.png');
+  background-repeat: no-repeat;
+  position: relative;
+  height: 770px;
+  background-position: left bottom;
+  background-size: 867px 637px ;
+}
+
+.feynman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  width: 775px;
+}
+
+.feynman__subtitle {
+line-height: 51px;
+font-size: 36px;
+font-weight: normal;
+text-align: center;
+margin: 70px auto 0;
+}
+
+.feynman__link {
+  position: absolute;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  right: 48px;
+  top: 50%;
+  z-index: 1;
+  text-decoration: none;
+  color: black;
+}
+
 /* Digits */
 
 .section-title {
@@ -248,46 +290,70 @@
     margin-bottom: 0;
 }
 
-/* Feynman */
+/* Khan */
 
-.feynman {
-    background-color: #F2F2F2;
-    padding-top: 100px;
-    background-image: url('/images/feynman.png');
-    background-repeat: no-repeat;
-    position: relative;
-    height: 770px;
-    background-position: left bottom;
-    background-size: 867px 637px ;
-  }
-
-.feynman__title {
-    line-height: 1.15;
-    font-size: 120px;
-    font-weight: bold;
-    text-align: center;
-    margin: 0 auto;
-    width: 775px;
+.khan {
+  background-color: #F2F2F2;
+  padding-top: 105px;
 }
 
-.feynman__subtitle {
-  line-height: 51px;
-  font-size: 36px;
+.khan__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
   font-weight: normal;
-  text-align: center;
-  margin: 70px auto 0;
 }
 
-.feynman__link {
-    position: absolute;
-    line-height: 51px;
-    font-size: 36px;
-    font-weight: normal;
-    right: 48px;
-    top: 50%;
-    z-index: 1;
-    text-decoration: none;
-    color: black;
+.khan__title {
+  line-height: 1.15px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.khan__quote {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 50px;
+  margin-bottom: 36px;
+  width: 790px;
+}
+
+.khan__quote-author {
+  line-height: 1.15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.khan__quote-author-subline {
+  line-height: 1.15px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 68px;
+}
+
+.khan__book-pic {
+  width: 608px;
+  height: 620px;
+  margin-right: 20px;
+}
+
+.khan__book-container {
+  display: inline-block;
+}
+
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  color: #2F80ED;
+  text-decoration: none;
+  vertical-align:top;
 }
 
 /* Kaufman */
