@@ -342,6 +342,8 @@ margin: 70px auto 0;
   width: 608px;
   height: 620px;
   margin-right: 20px;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .khan__book-container {
