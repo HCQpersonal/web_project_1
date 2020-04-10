@@ -1,0 +1,11 @@
+@keyframes rotation {
+  0% {
+      background-position: rotate(0deg);
+    } 100% {
+      background-position: rotate(360deg);
+    }
+  }
+
+  .rotation {
+    animation: rotation 20s infinite linear;
+  }
