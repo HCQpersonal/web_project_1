@@ -36,9 +36,7 @@
 }*/
 
 /* TO DO
-BEM
 Check square animation
-Get videos & logos centered
 CSS indent
 All links semit-transparent on hover, whatever opacity and transition i want*/
 
@@ -405,26 +403,26 @@ margin: 70px auto 0;
 
 /* Kaufman */
 
-.kaufman {
+/* .kaufman {
     background-color: #1F1F1F;
     overflow: hidden;
     color: #F2F2F2;
     padding-bottom: 90px;
     position: relative;
-}
+} */
 
-.section-title_theme_dark {
+/* .section-title_theme_dark {
     margin-top: 90px;
-}
+} */
 
-.section-subtitle_theme_dark {
+/* .section-subtitle_theme_dark {
     width: 60%;
     margin: 0 auto;
-}
+} */
 
-.table__theme_dark {
+/* .table__theme_dark {
     margin: 0 auto;
-}
+} */
 
 .table__cell_theme_dark {
     justify-content: space-between;
@@ -433,9 +431,9 @@ margin: 70px auto 0;
     margin-top: 80px;
 }
 
-.table__text_theme_dark {
+/* .table__text_theme_dark {
     flex-wrap: wrap;
-}
+} */
 
 .kaufman__triangle {
     position: absolute;
