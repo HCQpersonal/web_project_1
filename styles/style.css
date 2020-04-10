@@ -1,12 +1,28 @@
-@keyframes rotation {
+@import url('../blocks/cards/cards.css');
+@import url('../blocks/digits/digits.css');
+@import url('../blocks/feynman/feynam.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/kaufman/kaufman.css');
+@import url('../blocks/khan/khan.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/oakley/oakley.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/rotation/rotation.css');
+@import url('../blocks/resources/resources.css');
+@import url('../blocks/section/section.css');
+@import url('../blocks/two-columns/two-columns.css');
+@import url('../blocks/video/video.css');
+
+/* @keyframes rotation {
 0% {
     background-position: rotate(0deg);
   } 100% {
     background-position: rotate(360deg);
   }
-}
+} */
 
-.page {
+/* .page {
     min-width: 1100px;
     /* we don't know how to make mobile versions of websites yet, */
     /* so here we've set a minimum page width */
@@ -15,7 +31,7 @@
     margin: 0 auto;
     /* this ensures that all content is centered on screens wider than 1600px */
     font-family: 'Helvetica Neue', Arial, sans-serif;
-}
+}*/
 
 /* TO DO
 BEM
@@ -25,7 +41,7 @@ CSS indent
 All links semit-transparent on hover, whatever opacity and transition i want*/
 
 /* Header */
-
+/*
 .header {
     height: 100vh;
     min-height: 600px;
@@ -89,16 +105,16 @@ All links semit-transparent on hover, whatever opacity and transition i want*/
     top: 64px;
     right: 0;
     background-color: #2F80ED;
-    transform: rotate(-15deg);
-}
+    transform: rotate(-15deg); */
+/* }
 
 .rotation {
     animation: rotation 20s infinite linear;
-}
+} */
 
 /* Techniques */
 
-.cards {
+/* .cards {
   width: 920px;
   margin: 0 auto;
   padding: 0;
@@ -141,7 +157,7 @@ All links semit-transparent on hover, whatever opacity and transition i want*/
   font-size: 18px;
   font-weight: normal;
   margin: 0 60px 0;
-}
+} */
 
 /* Description */
 
@@ -319,7 +335,7 @@ margin: 70px auto 0;
 
 /* Khan */
 
-.khan {
+/* .khan {
   background-color: #F2F2F2;
   padding-top: 105px;
 }
@@ -383,7 +399,7 @@ margin: 70px auto 0;
   color: #2F80ED;
   text-decoration: none;
   vertical-align:top;
-}
+} */
 
 /* Kaufman */
 
