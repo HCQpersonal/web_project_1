@@ -1,6 +1,6 @@
 @import url('../blocks/cards/cards.css');
 @import url('../blocks/digits/digits.css');
-@import url('../blocks/feynman/feynam.css');
+@import url('../blocks/feynman/feynman.css');
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/kaufman/kaufman.css');
@@ -241,7 +241,7 @@ All links semit-transparent on hover, whatever opacity and transition i want*/
 } */
 
 /* Feynman */
-
+/*
 .feynman {
   background-color: #F2F2F2;
   padding-top: 100px;
@@ -280,7 +280,7 @@ margin: 70px auto 0;
   z-index: 1;
   text-decoration: none;
   color: black;
-}
+} */
 
 /* Digits */
 
