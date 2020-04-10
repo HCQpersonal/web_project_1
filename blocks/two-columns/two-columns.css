@@ -1,0 +1,15 @@
+@import url('__brief/');
+@import url('__main-text/');
+@import url('__paragraph/');
+@import url('__span-accent/');
+
+.two-columns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 100px auto;
+  width: 80%;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
