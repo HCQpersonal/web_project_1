@@ -1,8 +1,7 @@
 @keyframes rotation {
-  0% {
+0% {
     background-position: rotate(0deg);
-  }
-  100% {
+  } 100% {
     background-position: rotate(360deg);
   }
 }
@@ -17,6 +16,12 @@
     /* this ensures that all content is centered on screens wider than 1600px */
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
+/* TO DO
+BEM
+Check square animation
+Get videos & logos centered
+CSS indent */
 
 /* Header */
 
@@ -84,6 +89,9 @@
     right: 0;
     background-color: #2F80ED;
     transform: rotate(-15deg);
+}
+
+.rotation {
     animation: rotation 20s infinite linear;
 }
 
@@ -106,7 +114,7 @@
   align-items: flex-start;
 }
 
-.cards__item:nth-child(3) {
+.cards__item:nth-of-type(3) {
   margin-right: 0;
 }
 
@@ -189,13 +197,24 @@
 
 /* Ted talks */
 
+.video {
+    margin: 0 20px 50px;
+    justify-content: center;
+}
+
 .video__iframe {
-  width: 515px;
-  height: 316px;
-  display: flex;
-  justify-content: center;
-  position: relative;
   list-style: none;
+}
+
+.video__iframe:nth-of-type(1) {
+  margin-right: auto 20px;
+}
+
+/* Oakley */
+
+.oakley {
+  background-color: #F2F2F2;
+  padding: 100px 0;
 }
 
 /* Feynman */
@@ -410,6 +429,8 @@ margin: 70px auto 0;
   list-style: none;
   display: flex;
   margin-top: 80px auto 217px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .resources__logo {
@@ -464,7 +485,6 @@ margin: 70px auto 0;
     flex-direction: column;
     flex-wrap: wrap;
     margin-left: 0;
-    /* margin: 0 messed up the heights; I hope you meant margin-left: 0, which cleanly realigns the column without misaligning it with the logo & social columns. I worked with our tutor in Slack to make sure this is correct. */
     list-style-type: none;
     padding: 0;
 }
