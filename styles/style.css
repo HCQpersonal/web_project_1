@@ -21,7 +21,8 @@
 BEM
 Check square animation
 Get videos & logos centered
-CSS indent */
+CSS indent
+All links semit-transparent on hover, whatever opacity and transition i want*/
 
 /* Header */
 
@@ -198,23 +199,27 @@ CSS indent */
 /* Ted talks */
 
 .video {
-    margin: 0 20px 50px;
-    justify-content: center;
+    margin: 0 auto;
+    height: 480px;
 }
 
 .video__iframe {
   list-style: none;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  padding-bottom: 0;
 }
 
 .video__iframe:nth-of-type(1) {
-  margin-right: auto 20px;
+  margin-right: 20px;
 }
 
 /* Oakley */
 
 .oakley {
   background-color: #F2F2F2;
-  padding: 100px 0;
+  padding: 160px 0 80px;
 }
 
 /* Feynman */
@@ -428,7 +433,7 @@ margin: 70px auto 0;
   width: 1100px;
   list-style: none;
   display: flex;
-  margin-top: 80px auto 217px;
+  margin: 80px auto 217px;
   justify-content: space-between;
   align-items: center;
 }
