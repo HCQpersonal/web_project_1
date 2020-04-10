@@ -36,7 +36,7 @@
 }*/
 
 /* TO DO
-Check square animation
+Why are triangle and cell theme dark breaking? And why can't I see animation?
 CSS indent
 All links semit-transparent on hover, whatever opacity and transition i want*/
 
@@ -115,31 +115,31 @@ All links semit-transparent on hover, whatever opacity and transition i want*/
 /* Techniques */
 
 /* .cards {
-  width: 920px;
-  margin: 0 auto;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
+    width: 920px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .cards__item {
-  list-style-type: none;
-  width: 240px;
-  margin: 60px 100px auto 0;
-  text-align: center;
-  align-items: flex-start;
+    list-style-type: none;
+    width: 240px;
+    margin: 60px 100px auto 0;
+    text-align: center;
+    align-items: flex-start;
 }
 
 .cards__item:nth-of-type(3) {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .cards__image {
-  border-radius: 50%;
-  margin: 0 40px;
-  width: 160px;
-  height: 160px;
+    border-radius: 50%;
+    margin: 0 40px;
+    width: 160px;
+    height: 160px;
 }
 
 .cards__title {
@@ -152,11 +152,11 @@ All links semit-transparent on hover, whatever opacity and transition i want*/
 }
 
 .cards_description {
-  margin: 0;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 0 60px 0;
+    margin: 0;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 60px 0;
 } */
 
 /* Description */
@@ -424,24 +424,24 @@ margin: 70px auto 0;
     margin: 0 auto;
 } */
 
-.table__cell_theme_dark {
+/* .table__cell_theme_dark {
     justify-content: space-between;
     width: 200px;
     z-index: 1;
     margin-top: 80px;
-}
+} */
 
 /* .table__text_theme_dark {
     flex-wrap: wrap;
 } */
 
-.kaufman__triangle {
+/* .kaufman__triangle {
     position: absolute;
     right: -210px;
     width: 877px;
     height: 877px;
     top: 0;
-}
+} */
 
 /* Resources */
 
