@@ -1,0 +1,7 @@
+.footer__column_content-info {
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 0;
+  list-style-type: none;
+  padding: 0;
+}

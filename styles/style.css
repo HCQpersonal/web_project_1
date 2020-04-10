@@ -26,12 +26,12 @@
 
 /* .page {
     min-width: 1100px;
-    /* we don't know how to make mobile versions of websites yet, */
-    /* so here we've set a minimum page width */
+    we don't know how to make mobile versions of websites yet,
+    so here we've set a minimum page width
     max-width: 1600px;
-    /* here we've set a maximum page width */
+    here we've set a maximum page width
     margin: 0 auto;
-    /* this ensures that all content is centered on screens wider than 1600px */
+    this ensures that all content is centered on screens wider than 1600px
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }*/
 
@@ -463,37 +463,36 @@ margin: 70px auto 0;
 
 /* Footer */
 
-.footer {
+/* .footer {
     color: #F2F2F2;
     background-color: #1F1F1F;
     min-height: 350px;
     padding: 25px 0 40px;
-}
+} */
 
-.footer__columns {
+/* .footer__columns {
     display: flex;
     width: 90%;
     justify-content: space-between;
     position: relative;
     margin: 0 auto;
-}
-
+} */
+/*
 .footer__column_content-copyright {
-    /* display: flex; */
     flex-direction: column;
     justify-content: space-between;
     flex-basis: 711px;
-}
+} */
 
-.logo_place-footer {
+/* .logo_place-footer {
     background-size: contain;
     margin-top: 40px;
     height: 35px;
     width: 183px;
     align-self: flex-start;
-}
+} */
 
-.footer__author {
+/* .footer__author {
     position: absolute;
     line-height: 25px;
     font-size: 18px;
@@ -502,23 +501,23 @@ margin: 70px auto 0;
     align-self: flex-end;
     bottom: 18px;
     left: 0;
-}
+} */
 
-.footer__column_content-info {
+/* .footer__column_content-info {
     flex-direction: column;
     flex-wrap: wrap;
     margin-left: 0;
     list-style-type: none;
     padding: 0;
-}
+} */
 
-.footer__column-heading {
+/* .footer__column-heading {
     line-height: 45px;
     font-size: 18px;
     font-weight: bold;
-}
+} */
 
-.footer__column-links {
+/* .footer__column-links {
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
@@ -526,19 +525,19 @@ margin: 70px auto 0;
     margin-bottom: 16px;
     text-decoration: none;
     color: #F2F2F2;
-}
+} */
 
-.footer__column_content-social {
+/* .footer__column_content-social {
     display: flex;
     flex-direction: column;
     list-style-type: none;
     padding: 0;
-}
+} */
 
-.footer__social-icon {
+/* .footer__social-icon {
     width: 16px;
     height: 16px;
     margin-right: 10px;
     text-decoration: none;
     color: #F2F2F2;
-}
+} */
