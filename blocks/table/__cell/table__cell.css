@@ -1,4 +1,4 @@
-@import url('./_theme/_dark/table__cell_theme_dark.css');
+@import url('./_theme/table__cell_theme_dark.css');
 
 .table__cell {
   flex-direction: row;
