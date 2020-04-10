@@ -163,7 +163,7 @@ All links semit-transparent on hover, whatever opacity and transition i want*/
 
 /* Description */
 
-.two-columns {
+/* .two-columns {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -212,7 +212,7 @@ All links semit-transparent on hover, whatever opacity and transition i want*/
 
 .two-columns__paragraph:not(:last-child) {
     margin-bottom: 30px;
-}
+} */
 
 /* Ted talks */
 
@@ -235,10 +235,10 @@ All links semit-transparent on hover, whatever opacity and transition i want*/
 
 /* Oakley */
 
-.oakley {
+/* .oakley {
   background-color: #F2F2F2;
   padding: 160px 0 80px;
-}
+} */
 
 /* Feynman */
 
