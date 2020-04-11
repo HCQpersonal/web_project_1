@@ -2,9 +2,9 @@
   position: absolute;
   line-height: 25px;
   font-size: 18px;
-  margin: 0;
+  margin: 18px 0;
   font-weight: normal;
   align-self: flex-end;
-  bottom: 18px;
+  bottom: 0;
   left: 0;
 }
