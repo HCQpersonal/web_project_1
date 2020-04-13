@@ -1,9 +1,4 @@
 .video__iframe {
-  list-style: none;
-  display: flex;
-  margin-top: 50px;
-  justify-content: center;
-  padding-bottom: 0;
   border: none;
 }
 
