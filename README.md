@@ -9,4 +9,4 @@ This project has been developed in two phases for the initial sprints of the Pra
 
 _After setting a solid foundation, it would be cool to experiment with more transformations and animations!_
 
-[Live site](https://hcqpersonal.github.io/web_project_1/')
+[Live site](https://hcqpersonal.github.io/web_project_1/)
